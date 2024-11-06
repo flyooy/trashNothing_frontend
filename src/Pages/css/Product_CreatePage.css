@@ -1,0 +1,108 @@
+.form-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.form{
+    margin-top: 35px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #5a5aad;
+    margin-bottom: 6px;
+    width: 150px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    max-width: 600px;
+    padding: 8px;
+    border: 1px solid #d4d4d8;
+    border-radius: 4px;
+    background-color: #f5f5ff;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.price-input {
+    display: flex;
+    align-items: center;
+}
+
+.price-input input {
+    flex: 1;
+    margin-right: 8px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 4px;
+}
+
+button.submit-button {
+    width: 30%;
+    padding: 10px;
+    background-color: #5a5aad;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto; 
+    transition: background-color 0.3s;
+    display: block;
+    height: 50px;
+}
+
+.space_div{
+height: 50px;
+}
+
+button.submit-button:hover {
+    background-color: #48489a;
+}
+.lieferung-options {
+    display: flex;
+    gap: -48px;
+}
+.lieferung-options label {
+    display: inline-flex;
+    align-items: center;
+}
+.plz-ort-container {
+    display: flex;
+    gap: 8px;
+}
+
+.plz-ort-container input[type="text"]:first-child {
+    width: 100px; 
+}
+
+.plz-ort-container input[type="text"]:last-child {
+    width: 491px; 
+}
+
+.background-decor {
+    display: none;
+}

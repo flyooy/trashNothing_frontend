@@ -1,0 +1,139 @@
+/* Product Details Layout */
+.product-details {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background_section_details {
+
+
+    background: linear-gradient(to bottom,
+            rgba(236, 240, 253, 0.05) 0%,
+            rgba(236, 240, 253, 0.40) 15%,
+            rgba(236, 240, 253, 0.50) 20%,
+            rgba(236, 240, 253, 0.73) 30%,
+            rgba(236, 240, 253, 1) 46%,
+            rgba(236, 240, 253, 0.83) 64%,
+            rgba(236, 240, 253, 0.73) 84%,
+            rgba(236, 240, 253, 0.43) 90%,
+            rgba(236, 240, 253, 0.23) 95%,
+            rgba(236, 240, 253, 0) 100%);
+    color: #333;
+}
+
+.content {
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+.product-image {
+    flex: 1;
+    max-width: 600px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.edit-button,
+.sold-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 0 5px;
+}
+
+.edit-button {
+    background-color: #ffffff;
+    color: #6200ee;
+    border: 1px solid #6200ee;
+}
+
+.sold-button {
+    background-color: #6200ee;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+/* Product Info */
+.product-info {
+    margin-top: 40px;
+    flex: 1.5;
+    color: #010d0e;
+
+}
+
+.product-info h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.product-info h2 {
+    text-align: left;
+    margin-top: 15px;
+    color: #010d0e;
+}
+
+.product-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.wishlist-button {
+    margin-top: 20px;
+    background: none;
+    color: #6200ee;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.info-product-span {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.product-description {
+
+    line-height: 1.5;
+    color: #010d0e;
+}
+
+.wishlist_label_details {
+    font-size: 0.85rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+
+
+
+}
+
+.info-product-span {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}

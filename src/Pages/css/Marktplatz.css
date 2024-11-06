@@ -1,0 +1,250 @@
+
+.background_section_m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(
+        to bottom,
+        rgba(236, 240, 253, 0.05) 0%,
+        rgba(236, 240, 253, 0.40) 15%,
+        rgba(236, 240, 253, 0.50) 20%,
+        rgba(236, 240, 253, 0.73) 30%,
+        rgba(236, 240, 253, 1) 46%,
+        rgba(236, 240, 253, 0.83) 64%,
+        rgba(236, 240, 253, 0.73) 84%,
+        rgba(236, 240, 253, 0.43) 90%,
+        rgba(236, 240, 253, 0.23) 95%,
+        rgba(236, 240, 253, 0) 100%
+    );
+    color: #333;
+}
+
+.main_heading {
+    margin-top: 80px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 100px;
+}
+
+.sub_text {
+    font-size: 1rem;
+    max-width: 600px;
+    color: #555;
+    margin-bottom: 80px;
+}
+
+
+.search_area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.search_input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.post_button {
+    padding: 10px 20px;
+    background-color: #8c5ff9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.post_button:hover {
+    background-color: #7a52e2;
+}
+
+/* Main container styling */
+.product_listing_container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.category_list,
+.checkbox_list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    
+}
+
+.category_list li,
+.checkbox_list label {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.checkbox_list input[type="checkbox"] {
+    margin-right: 10px; 
+}
+
+.price_range {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price_input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apply_button,
+.reset_button {
+    padding: 8px;
+    background-color: #8c5ff9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+}
+
+
+.reset_button {
+    margin-left: 15px;
+    background-color: #ccc;
+}
+
+.apply_button:hover {
+    background-color: #7a52e2;
+}
+
+
+.product_listings {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product_listings_wishlist{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    gap: 20px;
+}
+.product_card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product_image {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product_info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product_price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.product_title {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.product_details,
+.product_location {
+    font-size: 1rem;
+    color: #888;
+   
+}
+.product_details{
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.product_location {
+    font-style: bold;
+}
+
+.product_actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.details_button {
+    padding: 8px 12px;
+    background-color: #8c5ff9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 50px;
+}
+
+.details_button:hover {
+    background-color: #7a52e2;
+}
+
+.wishlist_label {
+    font-size: 0.85rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 35px;
+
+}
+.no_products_message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+}
+.info-product-span{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
